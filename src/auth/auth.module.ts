@@ -18,7 +18,7 @@ import { JwtStrategy } from './utils/jwt_strategy';
     TypeOrmModule.forFeature([Admin, AdminOTP, AdminActivity]),
     PassportModule,
     JwtModule.register({
-      secret: 'abcdfast123BuyJakasMan123@09nmdhyuDiloe((30(())',
+      secret: process.env.JWT_SECRET || 'abcdRsiec123INECJakasMan123@09nmdhyuDiloe((30(())',
       signOptions: { expiresIn: '1d' },
     }),
   ],

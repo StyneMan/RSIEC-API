@@ -129,7 +129,7 @@ export function verificationEmailContent(code: any, firstname: string): string {
                                       <img
                                         align="center"
                                         border="0"
-                                        src="https://i.imgur.com/C5fgW4m.png"
+                                        src="https://i.imgur.com/99S978i.png"
                                         alt="Image"
                                         title="Image"
                                         style="
@@ -174,7 +174,7 @@ export function verificationEmailContent(code: any, firstname: string): string {
                 overflow-wrap: break-word;
                 word-wrap: break-word;
                 word-break: break-word;
-                background-color: #f7941d;
+                background-color: #0d302b;
               "
             >
               <div
@@ -338,7 +338,7 @@ export function verificationEmailContent(code: any, firstname: string): string {
                                     style="
                                       font-size: 22px;
                                       line-height: 35.2px;
-                                      color: #4b2e20;
+                                      color: #0d302b;
                                     "
                                     >${'Hi ' + firstname}
                                   </span>
@@ -389,7 +389,7 @@ export function verificationEmailContent(code: any, firstname: string): string {
                                     -webkit-text-size-adjust: none;
                                     text-align: center;
                                     color: #ffffff;
-                                    background-color: #4b2e20;
+                                    background-color: #0d302b;
                                     border-radius: 4px;
                                     -webkit-border-radius: 4px;
                                     -moz-border-radius: 4px;
@@ -455,7 +455,7 @@ export function verificationEmailContent(code: any, firstname: string): string {
                                     style="font-size: 18px; line-height: 28.8px; color: #f7941d;"
                                     >FastBuy
                                   </span>
-                                  <span  style="font-size: 18px; line-height: 28.8px; color: #4b2e20;">Team</span>
+                                  <span  style="font-size: 18px; line-height: 28.8px; color: #0d302b;">Team</span>
                                 </p>
                               </div>
                             </td>
@@ -482,7 +482,7 @@ export function verificationEmailContent(code: any, firstname: string): string {
                 overflow-wrap: break-word;
                 word-wrap: break-word;
                 word-break: break-word;
-                background-color: #4b2e20;
+                background-color: #0d302b;
               "
             >
               <div

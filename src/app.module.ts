@@ -54,7 +54,7 @@ import { Support } from './entities/support.entity';
     PassportModule,
     JwtModule.register({
       secret:
-        process.env.JWT_SECRET,
+        process.env.JWT_SECRET || 'abcdRsiec123INECJakasMan123@09nmdhyuDiloe((30(())',
       signOptions: { expiresIn: '1d' },
     }),
     MailerModule.forRootAsync({
