@@ -25,7 +25,6 @@ import { Request } from 'express';
 export class AdminController {
   constructor(private readonly adminService: AdminService) {}
 
-  @UseGuards(JwtAuthGuard)
   @Get('all')
   async allAdmins(
     @Query('page') page: number = 1, // Capture the 'page' query param (optional, with default value)
